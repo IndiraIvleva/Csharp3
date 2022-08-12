@@ -1,4 +1,7 @@
-﻿using static System.Console;
+﻿/*Напишите программу, которая принимает на вход координаты двух точек 
+и находит расстояние между ними в 3D пространстве.
+A (3,6,8); B (2,1,-7), -> 15.84*/
+using static System.Console;
 Clear();
 WriteLine("Введите x, y, z координаты точки А: ");
 int x1 = Convert.ToInt32(ReadLine());
